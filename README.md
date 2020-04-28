@@ -1,4 +1,5 @@
-# PythonTemplate &middot; [![Known Vulnerabilities](https://snyk.io/test/github/AnthonyKenny98/PythonTemplate/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/AnthonyKenny98/PythonTemplate?targetFile=requirements.txt) [![Build Status](https://travis-ci.org/AnthonyKenny98/PythonTemplate.svg?branch=master)](https://travis-ci.org/AnthonyKenny98/PythonTemplate) ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
+# PythonTemplate &middot; [![Known Vulnerabilities](https://snyk.io/test/github/AnthonyKenny98/Caecilius/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/AnthonyKenny98/Caecilius?targetFile=requirements.txt) [![Build Status](https://travis-ci.org/AnthonyKenny98/Caecilius.svg?branch=master)](https://travis-ci.org/AnthonyKenny98/Caecilius) 
+[![codecov](https://codecov.io/gh/AnthonyKenny98/Caecilius/branch/master/graph/badge.svg)](https://codecov.io/gh/AnthonyKenny98/Caecilius)![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 
 {{ProjectDescription}}
 
