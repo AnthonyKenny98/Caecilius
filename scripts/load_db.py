@@ -3,13 +3,13 @@
 # @Author: AnthonyKenny98
 # @Date:   2020-04-28 14:34:42
 # @Last Modified by:   AnthonyKenny98
-# @Last Modified time: 2020-04-30 09:06:26
+# @Last Modified time: 2020-04-30 09:21:49
 
 import sys
 from os.path import dirname, realpath
 import json
 
-DATABASE = dirname(dirname(realpath(__file__))) + '/src/{}.txt'.format(
+DATABASE = dirname(dirname(realpath(__file__))) + '/src/db/{}.txt'.format(
     sys.argv[2])
 
 db = []

@@ -3,7 +3,7 @@
 # @Author: AnthonyKenny98
 # @Date:   2020-04-28 14:19:07
 # @Last Modified by:   AnthonyKenny98
-# @Last Modified time: 2020-04-30 09:06:50
+# @Last Modified time: 2020-04-30 09:25:41
 
 from flask import Flask, jsonify
 from datetime import datetime
@@ -12,10 +12,10 @@ import json
 app = Flask(__name__)
 
 
-@app.route('/latin')
-def index():
+@app.route('/<language>')
+def phrase_of_the_dat(language):
     """Basic Respond."""
-    with open('latin.txt') as f:
+    with open('db/{}.txt'.format(language)) as f:
         db = json.loads(f.read())
     time = datetime.combine(datetime.today(), datetime.min.time()).timestamp()
     index = int(time % len(db))
