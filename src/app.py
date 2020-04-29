@@ -3,7 +3,7 @@
 # @Author: AnthonyKenny98
 # @Date:   2020-04-28 14:19:07
 # @Last Modified by:   AnthonyKenny98
-# @Last Modified time: 2020-04-28 17:22:49
+# @Last Modified time: 2020-04-30 08:57:23
 
 from flask import Flask, jsonify
 from datetime import datetime
@@ -12,7 +12,7 @@ import json
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/latin')
 def index():
     """Basic Respond."""
     with open('db.txt') as f:
