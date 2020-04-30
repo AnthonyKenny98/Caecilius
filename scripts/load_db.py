@@ -3,7 +3,7 @@
 # @Author: AnthonyKenny98
 # @Date:   2020-04-28 14:34:42
 # @Last Modified by:   AnthonyKenny98
-# @Last Modified time: 2020-04-30 10:20:42
+# @Last Modified time: 2020-04-30 13:40:36
 
 import sys
 from os.path import dirname, realpath
@@ -31,7 +31,7 @@ with open(sys.argv[1], 'r') as infile:
             (fre, eng) = line.strip("\n").split(" ::: ")
             db.append({
                 "phrase": fre,
-                "translation": eng.replace('lit.', 'literal:')
+                "translation": eng.replace('lit.', 'literally:')
             })
 
 
